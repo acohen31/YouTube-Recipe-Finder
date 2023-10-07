@@ -7,7 +7,6 @@ const QUERY = 'pizza-recipes';
 const MAX_RESULTS = 2;
 const URL = `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&q=${QUERY}&type=video&part=snippet&maxResults=${MAX_RESULTS}&order=viewCount&topicID=cooking`;
 
-// const video = 'https://www.googleapis.com/youtube/v3/videos?part=snippet&id={VIDEO_ID}&key=AIzaSyB30w61K2yt8xwZrYKWeBOIT3yVOJIseMI&q';
 
 function getVideos() {
 
